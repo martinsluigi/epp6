@@ -1,0 +1,27 @@
+/*cores do body*/
+body{
+    background-color: antiquewhite;
+    color: black;
+    background-image: linear-gradient(black, white);
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*estrutura grid*/
+body{
+    display: grid;
+    grid-template-areas:
+    "scp scp scp"
+    "cori cori cori"
+
+}
+.sccp{
+    grid-area: scp;
+}
+.corinthia{
+    grid-area: cori;
+}
+/*visual do header*/
+header{
+    background-color: grey;
+}
