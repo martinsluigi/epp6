@@ -1,4 +1,3 @@
-/*cores do body*/
 body{
     background-color: antiquewhite;
     color: black;
@@ -11,17 +10,52 @@ body{
 body{
     display: grid;
     grid-template-areas:
-    "scp scp scp"
-    "cori cori cori"
+    "frango frango frango"
+    "arroz scp scp"
+    "pee pee pee"
 
 }
-.sccp{
+.scp{
     grid-area: scp;
+    background-color: rgb(184, 170, 170);
+    border-radius: 75px;
 }
-.corinthia{
-    grid-area: cori;
+.frango{
+    grid-area: frango;
+    background-color: brown;
 }
 /*visual do header*/
 header{
     background-color: grey;
+}
+.arroz{
+    grid-area: arroz;
+    background-color: yellow;
+    border-radius: 75px
+}
+.pee{
+    grid-area: pee;
+    background-color: darkorange;
+}
+.foto1{
+    text-align: right;
+    border-radius: 75px
+}
+
+.foto2{
+    text-align: center;
+    border-radius: 75px;
+    height: 400px;
+    width: 400px;
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titulo1{
+    text-align: center;
 }
