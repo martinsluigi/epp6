@@ -18,11 +18,12 @@ body{
 .scp{
     grid-area: scp;
     background-color: rgb(184, 170, 170);
-    border-radius: 75px;
+    border-radius: 25px;
 }
 .frango{
     grid-area: frango;
     background-color: brown;
+    border-radius: 25px;
 }
 /*visual do header*/
 header{
@@ -30,8 +31,9 @@ header{
 }
 .arroz{
     grid-area: arroz;
-    background-color: yellow;
-    border-radius: 75px
+    background-color: black;
+    color: white;
+    border-radius: 25px
 }
 .pee{
     grid-area: pee;
@@ -48,7 +50,12 @@ header{
     height: 400px;
     width: 400px;
 }
-
+.foto3{
+    text-align: center;
+    border-radius: 75px;
+    width: 400px;
+    height: 400px;
+}
 
 aside{
     display: flex;
@@ -57,5 +64,11 @@ aside{
 }
 
 .titulo1{
+    text-align: center;
+}
+.titulo2{
+    text-align: center;
+}
+main{
     text-align: center;
 }
