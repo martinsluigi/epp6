@@ -5,6 +5,7 @@ body{
     background-image: url();
     background-repeat: no-repeat;
     background-size: 100%;
+    font-size: 25px;
 }
 /*estrutura grid*/
 body{
@@ -12,7 +13,8 @@ body{
     grid-template-areas:
     "frango frango frango"
     "arroz scp scp"
-    "pee pee pee"
+    "pee pee pee";
+    gap: 5px;
 
 }
 .scp{
@@ -37,7 +39,8 @@ header{
 }
 .pee{
     grid-area: pee;
-    background-color: darkorange;
+    background-color: white;
+    border-radius: 25px;
 }
 .foto1{
     text-align: right;
@@ -55,6 +58,10 @@ header{
     border-radius: 75px;
     width: 400px;
     height: 400px;
+}
+footer{
+    border-radius: 50%;
+    text-align: center;
 }
 
 aside{
