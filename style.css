@@ -1,81 +1,89 @@
-body{
-    background-color: antiquewhite;
-    color: black;
-    background-image: linear-gradient(black, white);
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-size: 25px;
+.titulo{
+    text-align: center;
+    align-items: center;
 }
-/*estrutura grid*/
 body{
     display: grid;
-    grid-template-areas:
-    "frango frango frango"
-    "arroz scp scp"
-    "pee pee pee";
-    gap: 5px;
+    grid-template-areas: 
+    "cabe" "cabe"
+    "brac" "brac"
+    "prin" "prin"
+    "roda" "roda";
+}
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
+}
 
-}
-.scp{
-    grid-area: scp;
-    background-color: rgb(184, 170, 170);
-    border-radius: 25px;
-}
-.frango{
-    grid-area: frango;
-    background-color: brown;
-    border-radius: 25px;
-}
-/*visual do header*/
 header{
-    background-color: grey;
-}
-.arroz{
-    grid-area: arroz;
-    background-color: black;
-    color: white;
-    border-radius: 25px
-}
-.pee{
-    grid-area: pee;
-    background-color: white;
-    border-radius: 25px;
-}
-.foto1{
-    text-align: right;
-    border-radius: 75px
-}
-
-.foto2{
+    background-color: darkgrey;
+    color: black;
+    padding: 20px;
     text-align: center;
-    border-radius: 75px;
-    height: 400px;
-    width: 400px;
+    align-items: center;
+    border: solid 2px black;
 }
-.foto3{
-    text-align: center;
-    border-radius: 75px;
-    width: 400px;
-    height: 400px;
+nav{
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
 }
-footer{
-    border-radius: 50%;
-    text-align: center;
-}
-
-aside{
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
-
-.titulo1{
-    text-align: center;
+nav ul li{
+    color: #fff;
+    text-decoration: none;
 }
-.titulo2{
-    text-align: center;
+nav ul li a{
+    margin: 0 10px;
 }
 main{
+    border: solid 2px black;
+}
+.rodape{
+    background-color: darkgrey;
+    color: black;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+    border: solid black 2px;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
     text-align: center;
 }
